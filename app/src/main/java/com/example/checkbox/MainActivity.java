@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         cb1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if (cb1.isChecked()){
+                if (cb1.isChecked()) {
                     total += oppo;
                 } else {
                     total -= oppo;
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         cb2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if (cb2.isChecked()){
+                if (cb2.isChecked()) {
                     total += vivo;
                 } else {
                     total -= vivo;
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         cb3.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if (cb3.isChecked()){
+                if (cb3.isChecked()) {
                     total += mi;
                 } else {
                     total -= mi;
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         cb4.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if (cb4.isChecked()){
+                if (cb4.isChecked()) {
                     total += samsung;
                 } else {
                     total -= samsung;
@@ -83,16 +83,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 String str = "";
-                if (oppoCb.isChecked()){
+                if (oppoCb.isChecked()) {
                     str += "Oppo ";
                 }
-                if (vivoCb.isChecked()){
+                if (vivoCb.isChecked()) {
                     str += "Vivo ";
                 }
-                if (miCb.isChecked()){
+                if (miCb.isChecked()) {
                     str += "Mi ";
                 }
-                if (samsungCb.isChecked()){
+                if (samsungCb.isChecked()) {
                     str += "Samsung ";
                 }
                 phonesTxtv.setText("" + str);
@@ -102,16 +102,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 String str = "";
-                if (oppoCb.isChecked()){
+                if (oppoCb.isChecked()) {
                     str += "Oppo ";
                 }
-                if (vivoCb.isChecked()){
+                if (vivoCb.isChecked()) {
                     str += "Vivo ";
                 }
-                if (miCb.isChecked()){
+                if (miCb.isChecked()) {
                     str += "Mi ";
                 }
-                if (samsungCb.isChecked()){
+                if (samsungCb.isChecked()) {
                     str += "Samsung ";
                 }
                 phonesTxtv.setText("" + str);
@@ -121,16 +121,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 String str = "";
-                if (oppoCb.isChecked()){
+                if (oppoCb.isChecked()) {
                     str += "Oppo ";
                 }
-                if (vivoCb.isChecked()){
+                if (vivoCb.isChecked()) {
                     str += "Vivo ";
                 }
-                if (miCb.isChecked()){
+                if (miCb.isChecked()) {
                     str += "Mi ";
                 }
-                if (samsungCb.isChecked()){
+                if (samsungCb.isChecked()) {
                     str += "Samsung ";
                 }
                 phonesTxtv.setText("" + str);
@@ -140,16 +140,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 String str = "";
-                if (oppoCb.isChecked()){
+                if (oppoCb.isChecked()) {
                     str += "Oppo ";
                 }
-                if (vivoCb.isChecked()){
+                if (vivoCb.isChecked()) {
                     str += "Vivo ";
                 }
-                if (miCb.isChecked()){
+                if (miCb.isChecked()) {
                     str += "Mi ";
                 }
-                if (samsungCb.isChecked()){
+                if (samsungCb.isChecked()) {
                     str += "Samsung ";
                 }
                 phonesTxtv.setText("" + str);
